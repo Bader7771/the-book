@@ -1,0 +1,56 @@
+:root {
+  --page-bg: #f2eee7;
+  --surface: #f8f5ef;
+  --text: #211f1c;
+  --muted: #817a70;
+  --line: #242424;
+  --accent-yellow: #f6b21a;
+  --accent-orange: #f47b20;
+  --accent-red: #ef3d23;
+  --content-width: 1320px;
+  --serif: Baskerville, 'Libre Baskerville', 'Cormorant Garamond', 'EB Garamond', Georgia,
+    'Times New Roman', serif;
+  --sans: Arial, Helvetica, sans-serif;
+
+  color: var(--text);
+  background: var(--page-bg);
+  font-family: var(--serif);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--page-bg);
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+  background: var(--page-bg);
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent-orange);
+  outline-offset: 4px;
+}
+
+#root {
+  min-height: 100vh;
+}
