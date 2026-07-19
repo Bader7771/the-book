@@ -1,8 +1,8 @@
 import './App.css'
-import Footer from './components/Footer/Footer'
 import Hero from './components/Hero/Hero'
 import Intro from './components/Intro/Intro'
 import Navbar from './components/Navbar/Navbar'
+import Sections from './components/Sections/Sections'
 
 function App() {
   return (
@@ -11,8 +11,8 @@ function App() {
       <main>
         <Hero />
         <Intro />
+        <Sections />
       </main>
-      <Footer />
     </>
   )
 }

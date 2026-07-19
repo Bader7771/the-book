@@ -211,21 +211,21 @@
 
 @media (max-width: 767px) {
   .hero-visual {
-    height: clamp(190px, 52vw, 240px);
+    height: clamp(190px, 54vw, 240px);
   }
 
   .hand-slot {
     top: clamp(12px, 3vw, 18px);
-    width: clamp(248px, 70vw, 430px);
+    width: clamp(276px, 86vw, 430px);
     --hand-edge-scale: 1.06;
   }
 
   .hand-slot-left {
-    left: -16vw;
+    left: -31vw;
   }
 
   .hand-slot-right {
-    right: -16vw;
+    right: -31vw;
   }
 
   .star-slot {
@@ -236,16 +236,16 @@
 
 @media (max-width: 430px) {
   .hand-slot {
-    width: 72vw;
+    width: 88vw;
     --hand-edge-scale: 1.08;
   }
 
   .hand-slot-left {
-    left: -18vw;
+    left: -33vw;
   }
 
   .hand-slot-right {
-    right: -18vw;
+    right: -33vw;
   }
 }
 

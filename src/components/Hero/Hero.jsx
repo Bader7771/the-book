@@ -2,7 +2,7 @@ import './Hero.css'
 
 function Hero() {
   return (
-    <section className="hero-visual" aria-label="Two illustrated hands holding a star">
+    <section id="home" className="hero-visual" aria-label="Two illustrated hands holding a star">
       <div className="hand-slot hand-slot-left">
         <img
           className="hand-image hand-image-left"

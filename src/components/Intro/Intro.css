@@ -19,12 +19,8 @@
 .accent-link {
   position: relative;
   display: inline-block;
-  color: transparent;
+  color: var(--accent-orange);
   text-decoration: none;
-  background:
-    linear-gradient(90deg, var(--accent-yellow), var(--accent-orange), var(--accent-red));
-  background-clip: text;
-  -webkit-background-clip: text;
   transition:
     filter 180ms ease,
     transform 180ms ease;
@@ -37,8 +33,7 @@
   left: 0.01em;
   height: 0.045em;
   content: '';
-  background:
-    linear-gradient(90deg, var(--accent-yellow), var(--accent-orange), var(--accent-red));
+  background: var(--accent-orange);
   opacity: 0.65;
 }
 
